@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header></Header>
-      <Hero id="hero" />
-      <About id="about" />
-      <Projects id="projects" />
-      <Contact id="contact" />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
       <Footer></Footer>
     </main>
   );
