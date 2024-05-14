@@ -1,0 +1,186 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 45px;
+    scroll-snap-align: center;
+}
+
+.title {
+    padding-top: 50px;
+    color: #E4E4E4;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.intro {
+    color: #E4E4E4;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.info {
+    color: #E4E4E4;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.info2 {
+    color: #E4E4E4;
+    font-size:22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items:first baseline;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonText {
+    color: #e3e3e3;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #0d00a4;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #5f00a4
+}
+
+@media (max-width: 1024px) {
+    .aboutContainer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-top: 40px; 
+    }
+
+    .content {
+        padding-top: 62px;
+    }
+
+    .intro {
+        font-size: 36px;
+    }
+
+    .info {
+        font-size: 22px;
+    }
+
+    .info2 {
+        font-size: 20px;
+    }
+
+    .image {
+        height: 350px; 
+        width: 350px;
+    }
+
+    .buttonText {
+        font-size: 18px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .aboutContainer {
+        padding: 45px 20px;
+        height: max-content;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding-top: 52px;
+    }
+
+    .intro {
+        font-size: 32px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .info2 {
+        font-size: 18px;
+    }
+
+    .imageContainer {
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    .image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .buttonText {
+        font-size: 18px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
+}

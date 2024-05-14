@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    padding-top: 45px;
+}
+
+.card {
+    flex: 1;
+    padding: 18px 40px 20px 18px;
+    border-radius: 30px;
+    border: 1px solid #737373;
+    background: linear-gradient(180deg, #070707 0%, #252525 100%);
+    position: relative;
+}
+
+.year {
+    padding-top: 18px;
+    color: #e4e4e4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    color: #e4e4e4;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.info {
+    color: #e4e4e4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.linkContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.link {
+    color: #e4e4e4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 18px 40px 40px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-top: 30px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .info {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .imageContainer {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .card {
+        padding: 18px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .imageContainer {
+        padding: 18px;
+    }
+}
