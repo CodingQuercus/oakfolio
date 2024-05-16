@@ -6,7 +6,7 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.title}>
                 <li>
-                    <a href="/#hero">
+                    <a href="#hero">
                         ÅF
                     </a>
                 </li>
